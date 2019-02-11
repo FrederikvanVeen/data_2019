@@ -45,7 +45,7 @@ def extract_movies(dom):
 
         # aquire title
         title = information_movie.h3.a.text
-        title = title.encode('ascii', 'ignore')
+        #title = title.encode('ascii', 'ignore')
 
         # aquite rating without point at end
         rating = float(information_movie.div.div.strong.text)
@@ -76,23 +76,24 @@ def extract_movies(dom):
             if actors_directors_string[i] == '|':
                 dir_act_sep_index = i
 
-
         # directors string
-        directors = actors_directors_string[first_col_index + 1 : dir_act_sep_index-1].encode('ascii', 'ignore') + ', '
+        directors = actors_directors_string[first_col_index + 1 : dir_act_sep_index-1] + ', '
         # actors string
-        actors = actors_directors_string[second_col_index + 1 : len(actors_directors_string)].encode('ascii', 'ignore')
+        actors = actors_directors_string[second_col_index + 1 : len(actors_directors_string)]
 
         actors_directors = directors  + actors
         actors_directors = actors_directors.replace('\n','')
-        print actors_directors
 
-        runtime = information_movie.findAll('p', {'class':'text-muted '})[0].findAll('span', {'class':'runtime'})[0].text
+
+        runtime = information_movie.findAll('p')[0].findAll('span', {'class':'runtime'})[0].text
+
         for i in range(len(runtime)):
-            if runtime[i] == ' ':
-                space_index = i
-                break
+           if runtime[i] == ' ':
+               space_index = i
+               break
 
         runtime = int(runtime[0:i])
+
         movie = Movie(title, rating, year, actors_directors, runtime)
         movies.append(movie)
 
