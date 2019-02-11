@@ -157,5 +157,5 @@ if __name__ == "__main__":
     movies =  extract_movies(dom)
 
     # write the CSV file to disk (including a header)
-    with open(OUTPUT_CSV, 'w') as output_file:
+    with open(OUTPUT_CSV, 'w', newline='') as output_file:
         save_csv(output_file, movies)
