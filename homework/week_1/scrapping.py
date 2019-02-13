@@ -15,16 +15,21 @@ TARGET_URL = "https://www.imdb.com/search/title?title_type=feature&release_date=
 BACKUP_HTML = 'movies.html'
 OUTPUT_CSV = 'movies.csv'
 
+# class to define each movie
 class Movie:
-  def __init__(self, title, rating, year, actors_directors, runtime):
-    self.title = title
-    self.rating = rating
-    self.year = year
-    self.actors_directors = actors_directors
-    self.runtime = runtime
 
-  def __str__(self):
+  # create movie
+    def __init__(self, title, rating, year, actors_directors, runtime):
+        self.title = title
+        self.rating = rating
+        self.year = year
+        self.actors_directors = actors_directors
+        self.runtime = runtime
+
+  # print movie
+    def __str__(self):
         return self.title +'\n' + self.rating +'\n' + self.year
+
 
 def extract_movies(dom):
     """
@@ -45,58 +50,62 @@ def extract_movies(dom):
 
         # aquire title
         title = information_movie.h3.a.text
-        #title = title.encode('ascii', 'ignore')
 
-        # aquite rating without point at end
+        # aquite rating, without point at end
         rating = float(information_movie.div.div.strong.text)
 
         # aquire year without brackets and roman numerals
         year = information_movie.h3.findAll('span', {'class':'lister-item-year text-muted unbold'})[0].text
         year = int(year[len(year)-5:len(year)-1])
 
+        # aquire string of directors and actors
         actors_directors_string = information_movie.findAll('p')[2].text
-        # actors_directors_string = actors_directors_string.replace('Director:','')
-        # actors_directors_string = actors_directors_string.replace('Directors:','')
-        # actors_directors_string = actors_directors_string.replace('Stars:','')
-        # actors_directors_string = actors_directors_string.replace('|','')
-        # actors_directors_string = actors_directors_string.replace('\n',',')
 
         # counter to distinguish two colons
         col_count = 0
+
         for i in  range(len(actors_directors_string)):
             if actors_directors_string[i] == ':':
+
+                # first colon
                 if col_count == 0:
                     # index of first colon
                     first_col_index = i
                     col_count += 1
+
+                # second colon
                 else:
-                    # index of second colon
                     second_col_index = i
+
             # seperation sign for directors and actors
             if actors_directors_string[i] == '|':
                 dir_act_sep_index = i
 
         # directors string
         directors = actors_directors_string[first_col_index + 1 : dir_act_sep_index-1] + ', '
+
         # actors string
         actors = actors_directors_string[second_col_index + 1 : len(actors_directors_string)]
 
+        # combine new clean strings and remove blank line
         actors_directors = directors  + actors
         actors_directors = actors_directors.replace('\n','')
 
-
+        # aquire movie runtime
         runtime = information_movie.findAll('p')[0].findAll('span', {'class':'runtime'})[0].text
 
+        # determine where number ends
         for i in range(len(runtime)):
            if runtime[i] == ' ':
                space_index = i
                break
 
+        # runtime as only minutes integer
         runtime = int(runtime[0:i])
 
+        # create movie and append
         movie = Movie(title, rating, year, actors_directors, runtime)
         movies.append(movie)
-
 
     return movies
 
@@ -105,13 +114,14 @@ def save_csv(outfile, movies):
     """
     Output a CSV file containing highest rated movies.
     """
+
+    # open csv and write first row
     writer = csv.writer(outfile)
     writer.writerow(['Title', 'Rating', 'Year', 'Actors', 'Runtime'])
 
+    # write info row per movie
     for movie in movies:
         writer.writerow([movie.title, movie.rating, movie.year, movie.actors_directors, movie.runtime])
-
-    # ADD SOME CODE OF YOURSELF HERE TO WRITE THE MOVIES TO DISK
 
 
 def simple_get(url):
