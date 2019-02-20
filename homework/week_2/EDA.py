@@ -88,13 +88,13 @@ def construct_dataframe(INPUT_CSV, columns_interest):
     return df
 
 
-def central_tedency(df, column_to_analyze):
+def central_tendency(df, column_to_analyze):
     # compute and print, mean, median, mode and standard deviation
     mean = df[column_to_analyze].mean()
     median = df[column_to_analyze].median()
     mode = df[column_to_analyze].mode()[0]
     std = df[column_to_analyze].std()
-    print('Central Tedency produces mean: {}, median: {}, mode: {}, standard deviation: {}'.format(mean, median, mode, std))
+    print('Central tendency: mean = {}, median = {}, mode = {}, standard deviation = {}'.format(mean, median, mode, std))
 
     # plot histogram of columns of interest
     plt.hist(df[column_to_analyze], 50, density=True, facecolor='g', alpha=0.75)
@@ -125,7 +125,7 @@ def five_number_summary(df, column_to_analyze):
     min_in_fences = min(values_in_fences)
 
     # print the five numbers for the column of interest
-    print('Five Number Summary produces first quartile: {}, third quartile: {}, median: {}, min: {}, max: {}'.format(quarter_1, quarter_3, median, min_in_fences, max_in_fences))
+    print('Five Number Summary: first quartile =  {}, third quartile = {}, median = {}, min = {}, max = {}'.format(quarter_1, quarter_3, median, min_in_fences, max_in_fences))
 
     # plot boxplot for column of interest
     plt.boxplot(df[column_to_analyze])
@@ -150,6 +150,6 @@ def write_to_json(INPUT_CSV):
 
 if __name__ == "__main__":
     df = construct_dataframe(INPUT_CSV, columns_interest)
-    central_tedency(df, 'GDP')
+    central_tendency(df, 'GDP')
     five_number_summary(df, 'Infant mortality')
     write_to_json('out.csv')
