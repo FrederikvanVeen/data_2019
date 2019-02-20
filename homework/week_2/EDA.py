@@ -1,8 +1,9 @@
 import numpy as np
 import pandas as pd
-import pylab
 import matplotlib.pyplot as plt
-from multiprocessing import Process
+from scipy.stats import scoreatpercentile
+import json
+
 
 # maximum an minimum GDP per capita according to wikipedia
 MAXGDP_PER_CAPITA = 61400
@@ -11,6 +12,7 @@ INPUT_CSV = 'input.csv'
 collumns_interest = ['Country', 'Region', 'Pop. Density (per sq. mi.)', 'Infant mortality (per 1000 births)','GDP ($ per capita) dollars']
 
 def construct_dataframe(INPUT_CSV, collumns_interest):
+
     # read input csv into dataframe
     df = pd.read_csv(INPUT_CSV)
 
@@ -79,7 +81,6 @@ def construct_dataframe(INPUT_CSV, collumns_interest):
 
 
 def central_tedency(df, collumn_to_analyze):
-
     # compute and print, mean, median, mode and standard deviation
     mean = df[collumn_to_analyze].mean()
     median = df[collumn_to_analyze].median()
@@ -97,8 +98,6 @@ def central_tedency(df, collumn_to_analyze):
 
 
 def five_number_summary(df, collumn_to_analyze):
-    from scipy.stats import scoreatpercentile
-
     # compute first quartile, third quartile
     quarter_1 = scoreatpercentile(df[collumn_to_analyze], 25)
     quarter_3 = scoreatpercentile(df[collumn_to_analyze], 75)
@@ -128,7 +127,6 @@ def five_number_summary(df, collumn_to_analyze):
     plt.show()
 
 def write_to_json(INPUT_CSV):
-    import json
     df = pd.read_csv(INPUT_CSV)
     df.columns = collumns_interest
     df = df.set_index('Country')
