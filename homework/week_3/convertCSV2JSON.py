@@ -1,24 +1,27 @@
-åimport csv
+import csv
 import json
 
-INPUTCSV = 'CausesOfDeath_France_2001-2008.csv'
-OUTPUTJSON = 'CausesOfDeath_France_2001-2008.json'
+INPUTCSV = 'KNMI_SCHIPHOL_2018.txt'
+OUTPUTJSON = 'KNMI_SCHIPHOL_2018.json'
+start_data_line = 15
 
-
-def csvtojson(INPUTCSV):
+def csvtojson(INPUTCSV, start_data_line):
     # open the CSV
-    csv_infile = open( 'CausesOfDeath_France_2001-2008.csv', 'rU' )
+    csv_infile = open( INPUTCSV,'rU' )
+
+    # skip introduction lines
+    for i in range(start_data_line):
+        csv_infile.next()
 
     # read csv file into DictReader object
-    reader = csv.DictReader(csv_infile)
+    reader = csv.DictReader(csv_infile, skipinitialspace=True, fieldnames = ('STN', 'YYYYMMDD', 'TN', 'TX', 'SQ', 'UX' ))
 
-    # Parse the CSV into JSON
+    # parse csv to json
     out = json.dumps( [ row for row in reader ] )
 
     # Save the JSON
     json_outfile = open(OUTPUTJSON, 'w')
     json_outfile.write(out)
 
-
-if __name__ == "__main__":
-    csvtojson(INPUTCSV)
+if __name__ == '__main__':
+    csvtojson(INPUTCSV, start_data_line)
