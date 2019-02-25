@@ -7,7 +7,6 @@ import matplotlib.pyplot as plt
 from scipy.stats import scoreatpercentile
 import json
 
-
 # maximum an minimum GDP per capita according to wikipedia
 MAXGDP_PER_CAPITA = 61400
 MINDP_PER_CAPITA = 243
