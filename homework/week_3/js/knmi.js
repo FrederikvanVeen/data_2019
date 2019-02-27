@@ -3,6 +3,8 @@ var chart_start = 25
 var chart_width = 400;
 var chart_height = 400;
 
+/* Transform function to map the datapoints to the correct location on the canvas.
+The transformation function depends on the domain of the datapoints and the range of the canvas.*/
 function createTransform(domain, range){
 
     var domain_min = domain[0]
@@ -20,6 +22,7 @@ function createTransform(domain, range){
     }
 }
 
+/* Draws grid, axis, axis-ticks and axis titles for the chart on the canvas. */
 draw_axis = function(){
 
   var canvas=document.getElementById("LineChart");
@@ -83,6 +86,8 @@ draw_axis = function(){
     ctx.beginPath();
     ctx.lineWidth = 1;
     ctx.strokeStyle = "#000000";
+
+    // for dates tick match the location of vertical grid lines
     ctx.moveTo(grid_size*i, num_lines_x*grid_size);
     ctx.lineTo(grid_size*i, num_lines_x*grid_size-3);
     ctx.stroke()
@@ -90,18 +95,7 @@ draw_axis = function(){
     ctx.fillText(graph_dates[i], grid_size*i, num_lines_x*grid_size + 7.5);
   }
 
-
-  ctx.font = "17.5px Arial Bold";
-  ctx.fillText('month', 0, num_lines_x*grid_size + 23);
-
-  ctx.save();
-  ctx.translate(chart_width + 25, 120);
-  ctx.rotate(-0.5*Math.PI);
-  ctx.font = "17px Arial Bold";
-  ctx.fillText('temperature (C)', 0, 0);
-  ctx.restore()
-
-  // domain of temperatures for transfomr function
+  // domain of temperatures and corresponding transform function
   max_temp = 35.7;
   min_temp = -4,5;
   transform_temperature = createTransform([min_temp, max_temp], [0, chart_height])
@@ -109,20 +103,33 @@ draw_axis = function(){
   // temperatures for on axis
   temperatures = [0, 5, 10, 15, 20, 25, 30, 35]
 
-  // draw each ticks and temperature for all temperatures at right heigt
+  // draw ticks for y-axis (temperatures) at right height
   for (var i = 0; i < temperatures.length; i++){
+
+    // determine right location on screen for tick with transform and draw tick
     var temp_tick_screen = transform_temperature(temperatures[i]);
     ctx.beginPath();
-
-    // moove to richt location on graph
     ctx.moveTo(chart_width, chart_height - temp_tick_screen);
     ctx.lineTo(chart_width-3, chart_height - temp_tick_screen);
     ctx.stroke()
-    ctx.font = "10px Arial";
 
     // write corresponding temperature
+    ctx.font = "10px Arial";
     ctx.fillText(temperatures[i], chart_width+3, chart_height - temp_tick_screen);
   }
+
+  // write name of x-axis
+  ctx.font = "17.5px Arial Bold";
+  ctx.fillText('month', 0, num_lines_x*grid_size + 23);
+
+  // write name of y-axis vertically
+  ctx.save();
+  ctx.translate(chart_width + 25, 120);
+  ctx.rotate(-0.5*Math.PI);
+  ctx.font = "17px Arial Bold";
+  ctx.fillText('temperature (C)', 0, 0);
+  ctx.restore()
+
 }
 
 
@@ -132,19 +139,19 @@ var txtFile = new XMLHttpRequest();
 
 txtFile.onreadystatechange = function() {
 
+  // list to push info from json objects in
   var dates = [];
   var max_temperatures = [];
-  var object_list = [];
-  var data_points = [];
-  var humidity =[];
 
   if (txtFile.readyState === 4 && txtFile.status == 200) {
     var json = JSON.parse(txtFile.responseText);
 
     // loop through every object in json
     json.forEach(function(element) {
-      // add every minimum temperature to list
+
+      // add every maximum temperature to list
       max_temperatures.push(element['TX']/10);
+
       // add every corresponding date in yyyy-mm-dd format
       var date = new Date(element['YYYYMMDD'].substr(0, 4) + '-' + element['YYYYMMDD'].substr(4,2) + '-' + element['YYYYMMDD'].substr(6, 2));
       dates.push(date)
@@ -153,6 +160,7 @@ txtFile.onreadystatechange = function() {
     const canvas = document.getElementById('LineChart');
     const ctx = canvas.getContext('2d');
 
+    // create transform functions
     transform_function_x1 = createTransform([Math.min.apply(null, dates), Math.max.apply(null, dates)], [0, chart_width])
     transform_function_y1 = createTransform([Math.min.apply(null, max_temperatures), Math.max.apply(null, max_temperatures)], [0, chart_height])
 
@@ -160,7 +168,10 @@ txtFile.onreadystatechange = function() {
     ctx.lineWidth = 1;
     ctx.strokeStyle = "#000000";
 
+    // draw lines from datapoint to datapoint
     for (var i = 0; i < dates.length; i++){
+
+      // determine right locations on screen for datapoints
       var date_screen = transform_function_x1(dates[i])
       var max_temperature_screen = transform_function_y1(max_temperatures[i])
       ctx.lineTo(date_screen, chart_height - max_temperature_screen)
@@ -174,5 +185,3 @@ txtFile.onreadystatechange = function() {
 txtFile.open("GET", fileName);
 txtFile.send();
 draw_axis();
-max_temperatures = txtFile.onreadystatechange();
-console.log(max_temperatures);
