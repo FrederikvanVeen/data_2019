@@ -3,9 +3,16 @@ import json
 
 INPUTCSV = 'KNMI_SCHIPHOL_2018.txt'
 OUTPUTJSON = 'KNMI_SCHIPHOL_2018.json'
+
+# data starts at line 15
 start_data_line = 15
 
 def csvtojson(INPUTCSV, start_data_line):
+    """
+    Converts csv to json.
+    Fieldnames have to be specified
+    """
+
     # open the CSV
     csv_infile = open( INPUTCSV,'rU' )
 
