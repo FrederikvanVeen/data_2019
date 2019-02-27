@@ -1,12 +1,95 @@
 
-var dates = [];
-var min_temps = [];
+var canvas=document.getElementById("LineChart");
+var ctx = canvas.getContext("2d");
 
-var c1=document.getElementById("LineChart1");
-var ctx1 = c1.getContext("2d");
+var grid_size = 36.3;
+var x_axis_distance_grid_lines = 11;
+var y_axis_distance_grid_lines = 0;
+var x_axis_starting_point = { number: 1, suffix: '\u03a0' };
+var y_axis_starting_point = { number: 1, suffix: '' };
 
-var c2=document.getElementById("LineChart2");
-var ctx2 = c2.getContext("2d");
+
+// canvas width
+var canvas_width = canvas.width;
+// canvas height
+var canvas_height = canvas.height;
+
+// no of vertical grid lines
+var num_lines_x = Math.floor(canvas_height/grid_size);
+console.log(num_lines_x);
+// no of horizontal grid lines
+var num_lines_y = Math.floor(canvas_width/grid_size);
+
+
+// Draw grid lines along X-axis
+for(var i=0; i <= num_lines_x; i++) {
+    ctx.beginPath();
+    ctx.lineWidth = 1;
+
+    // If line represents X-axis draw in different color
+    if(i == x_axis_distance_grid_lines)
+        ctx.strokeStyle = "#000000";
+    else
+        ctx.strokeStyle = "#e9e9e9";
+
+    if(i == num_lines_x) {
+        ctx.moveTo(0, grid_size*i);
+        ctx.lineTo(canvas_width, grid_size*i);
+    }
+    else {
+        ctx.moveTo(0, grid_size*i);
+        ctx.lineTo(num_lines_x* grid_size, grid_size*i);
+    }
+    ctx.stroke();
+}
+
+// Draw grid lines along Y-axis
+for(i=0; i<=num_lines_y; i++) {
+    ctx.beginPath();
+    ctx.lineWidth = 1;
+
+    // If line represents Y-axis draw in different color
+    if(i == y_axis_distance_grid_lines)
+        ctx.strokeStyle = "#000000";
+    else
+        ctx.strokeStyle = "#e9e9e9";
+
+    if(i == num_lines_y) {
+        ctx.moveTo(grid_size*i, 0);
+        ctx.lineTo(grid_size*i, canvas_height);
+    }
+    else {
+        ctx.moveTo(grid_size*i+0.5, 0);
+        ctx.lineTo(grid_size*i+0.5, num_lines_y* grid_size);
+    }
+    ctx.stroke();
+}
+
+
+
+// draw ticks on x-axis
+graph_dates = ['1 jan', '1 feb', '1 mar', '1 apr', '1 may', '1 jun', '1 jul', '1 aug', '1 sept', '1 oct', '1 nov', '1 dec']
+for(var i=0; i<=num_lines_x; i++) {
+  ctx.beginPath();
+  ctx.lineWidth = 1;
+  ctx.strokeStyle = "#000000";
+  ctx.moveTo(grid_size*i, num_lines_x*grid_size);
+  ctx.lineTo(grid_size*i, num_lines_x*grid_size-3);
+  ctx.stroke()
+  ctx.font = "10px Arial";
+  ctx.fillText(graph_dates[i], grid_size*i, num_lines_x*grid_size + 7.5);
+}
+
+// draw ticks on y-axis
+for(var i=0; i<=num_lines_y; i++) {
+  ctx.beginPath();
+  ctx.lineWidth = 1;
+  ctx.strokeStyle = "#000000";
+  ctx.moveTo(0, grid_size*i);
+  ctx.lineTo(3, grid_size*i);
+  ctx.stroke()
+}
+
 
 var dates = [];
 var max_temperatures = [];
@@ -24,8 +107,7 @@ txtFile.onreadystatechange = function() {
     json.forEach(function(element) {
       // add every minimum temperature to list
       max_temperatures.push(element['TX']);
-      humidity.push(element['UX'])
-      // add every correspondin date in yyyy-mm-dd format
+      // add every corresponding date in yyyy-mm-dd format
       var date = new Date(element['YYYYMMDD'].substr(0, 4) + '-' + element['YYYYMMDD'].substr(4,2) + '-' + element['YYYYMMDD'].substr(6, 2));
       dates.push(date)
       // add corresponding date en temperature as objects
@@ -33,12 +115,20 @@ txtFile.onreadystatechange = function() {
                         y: element['TX']/10});
 
     });
-    console.log(humidity);
-    const canvas1 = document.getElementById('LineChart1');
-    const ctx1 = canvas1.getContext('2d');
 
-    const canvas2 = document.getElementById('LineChart2');
-    const ctx2 = canvas2.getContext('2d');
+    const canvas = document.getElementById('LineChart');
+    const ctx = canvas.getContext('2d');
+
+    // // draw ticks on y-axis
+    // var range_temp = Math.max.apply(null, max_temperatures) - Math.min.apply(null, max_temperatures);
+    // for(var i=0; i<=range_temp; i = 1 + 0.5) {
+    //   ctx.beginPath();
+    //   ctx.lineWidth = 1;
+    //   ctx.strokeStyle = "#000000";
+    //   ctx.moveTo(0, grid_size*i);
+    //   ctx.lineTo(3, grid_size*i);
+    //   ctx.stroke();
+    // }
 
     function createTransform(domain, range){
       // domain is a two-element array of the data bounds [domain_min, domain_max]
@@ -63,34 +153,20 @@ txtFile.onreadystatechange = function() {
         }
     }
 
-    transform_function_x1 = createTransform([Math.min.apply(null, dates), Math.max.apply(null, dates)], [0, canvas1.width])
-    transform_function_y1 = createTransform([Math.min.apply(null, max_temperatures), Math.max.apply(null, max_temperatures)], [0, canvas1.height])
+    transform_function_x1 = createTransform([Math.min.apply(null, dates), Math.max.apply(null, dates)], [0, 400])
+    transform_function_y1 = createTransform([Math.min.apply(null, max_temperatures), Math.max.apply(null, max_temperatures)], [0, 400])
 
-    transform_function_x2 = createTransform([Math.min.apply(null, dates), Math.max.apply(null, dates)], [0, canvas2.width])
-    transform_function_y2 = createTransform([Math.min.apply(null, humidity), Math.max.apply(null, humidity)], [0, canvas2.height])
-    ctx1.beginPath();
-    ctx1.lineWidth = 1;
-
+    ctx.beginPath();
+    ctx.lineWidth = 1;
+    ctx.strokeStyle = "#000000";
 
     for (var i = 0; i < dates.length; i++){
       var date_screen = transform_function_x1(dates[i])
       var max_temperature_screen = transform_function_y1(max_temperatures[i])
-      ctx1.lineTo(date_screen, canvas1.height - max_temperature_screen)
+      ctx.lineTo(date_screen, 400 - max_temperature_screen)
     }
 
-    ctx1.stroke();
-
-    ctx2.beginPath();
-    ctx2.lineWidth = 1;
-
-
-    for (var i = 0; i < dates.length; i++){
-      var date_screen = transform_function_x2(dates[i])
-      var max_temperature_screen = transform_function_y2(humidity[i])
-      ctx2.lineTo(date_screen, canvas2.height - max_temperature_screen)
-    }
-
-    ctx2.stroke();
+    ctx.stroke();
 
   }
 }
