@@ -137,6 +137,7 @@ draw_axis = function(){
 var fileName = "KNMI_SCHIPHOL_2018.json";
 var txtFile = new XMLHttpRequest();
 
+/* Extracts information from json-file and plot graph onto the canvas in the html page */
 txtFile.onreadystatechange = function() {
 
   // list to push info from json objects in
