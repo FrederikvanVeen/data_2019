@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Barchart</title>
+        <script type="text/javascript" src="d3/d3.js"></script>
+        <style type="text/css">
+          div.bar {
+              display: inline-block;
+              width: 20px;
+              height: 75px;   /* We'll override this later */
+              background-color: teal;
+              margin-right: 2px;
+          }
+          svg.axis line {
+              fill: none;
+              stroke: black;
+              shape-rendering: crispEdges;
+          }
+        </style>
+    </head>
+    <h2>
+    </h2>
+    <body>
+
+        <script type="text/javascript">
+          // create format for graph
+          d3.select("head").append("title").text("Bar chart");
+          d3.select("body").append('h2').text("Barchart ");
+          d3.select("body").append('h4').text("Frederik van Veen \n\n 10789324 ");
+          d3.select("body").append('h5').text("Bar chart of ..... visualised using the javascript D3 library.");
+
+          //Width and height
+          var w = 500;
+          var h = 200;
+          var barPadding = 1;
+
+          //Create SVG element
+          var svg = d3.select("body")
+                      .append("svg")
+                      .attr("width", w)
+                      .attr("height", h);
+
+          d3.json("OECD.json").then(function(data) {
+
+            // push all KTOE measurement for Belgium in array for bar chart
+            json_interest = [];
+            for(i = 0; i < data.length ; i++){
+              if (data[i].LOCATION == 'BEL' && data[i].MEASURE == 'KTOE'&& data[i].TIME > 1985){
+                json_interest.push(data[i])
+              }
+             }
+
+            var xScale = d3.scaleLinear()
+              .domain([d3.min(json_interest, function(d) { return d.TIME; }), d3.max(json_interest, function(d) { return d.TIME; })])
+              .range([0, w]);
+            var yScale = d3.scaleLinear()
+                     .domain([0, d3.max(json_interest, function(d) { return d.Value; })])
+                     .range([0, h]);
+
+            console.log(json_interest);
+            console.log(json_interest.length);
+            svg.selectAll("rect")
+             .data(json_interest)
+             .enter()
+             .append("rect")
+             .attr("x", function(d) {
+                  return xScale(d.TIME);
+              })
+             .attr("y", function(d) {
+                return (h - yScale(d.Value)/50);  //Height minus data value
+              })
+             .attr("width", w / json_interest.length - barPadding)
+             .attr("height", function(d) {
+                  return d.Value;  //Just the data value
+              })
+             .attr("fill", "teal");
+
+            svg.selectAll("text")
+             .data(json_interest)
+             .enter()
+             .append("text")
+             .text(function(d){
+               return d.TIME
+              })
+              .attr("x", function(d, i) {
+                   return xScale(d.TIME) +0.4;
+              })
+              .attr("y", function(d) {
+                   return (h - yScale(d.Value)/50) + 5;
+              })
+              .attr("font-family", "sans-serif")
+              .attr("font-size", "6.3px")
+              .attr("fill", "white");
+
+            svg.append("g")
+              .attr("class", "x axis")
+              .attr("transform", "translate(0," + (h-barPadding)/50 + ")")
+              .call(d3.axisBottom(xScale))
+              .selectAll("text")
+                .style("text-anchor", "end")
+                .attr("dx", "-.8em")
+                .attr("dy", "-.55em")
+                .attr("transform", "rotate(-90)");
+
+          });
+
+        </script>
+
+    </body>
+</html>
