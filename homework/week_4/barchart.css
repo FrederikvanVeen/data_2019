@@ -1,0 +1,46 @@
+/*
+rederik van veen, 10789324
+css file for bartchart.html
+*/
+
+          svg.bar {
+              display: inline-block;
+              width: 20px;
+              height: 75px;   /* We'll override this later */
+              fill: teal;
+              margin-right: 2px;
+          }
+
+          .bar:hover {
+            fill: green ;
+          }
+
+          svg.axis line {
+              fill: none;
+              stroke: black;
+              shape-rendering: crispEdges;
+          }
+
+          .axis text {
+            fill:black;   /* <== Set the fill */
+            text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+            cursor: move;
+          }
+          .x.axis path {
+            display: none;
+          }
+
+
+          div.tooltip {
+            color: white;
+            position: absolute;
+            text-align: center;
+            width: 60px;
+            height: 30px;
+            padding: 2px;
+            font: 12px sans-serif;
+            background: rgba(0,0,0,.8);
+            border: 2px solid black;
+            color: #fff;
+            pointer-events: none;
+          }
