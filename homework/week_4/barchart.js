@@ -100,7 +100,7 @@ d3.json("OECD.json").then(function(data) {
     .selectAll("text")
       .style("text-anchor", "end")
       .attr("dx", "-.8em")
-      .attr("dy", "-.55em")
+      .attr("dy", "-.50em")
       .attr("transform", "rotate(-90)");
 
   svg.append("g")
@@ -109,7 +109,7 @@ d3.json("OECD.json").then(function(data) {
     .append("text")
     .attr("transform", "rotate(-90)")
     .attr("y", 6)
-    .attr("dy", ".71em")
+    .attr("dy", ".70em")
     .text("renewable energy (KTOE)");
 
 });
