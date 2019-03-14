@@ -1,0 +1,17 @@
+<script type="text/javascript">
+function getSelectedValue(){
+  var selectedValue = document.getElementById("selectData").value
+  console.log(selectedValue);
+}
+</script>
+
+
+
+<form>
+    <select id="selectData">
+        <option value="gdp"> GDP</option>
+        <option value="ppp">Purchaing power parities</option>
+        <option value="tourism">Tourism</option>
+    </select>
+    <input type="button" value="Submit" onclick= "getSelectedValue()">
+</form>
