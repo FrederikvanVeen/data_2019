@@ -7,11 +7,27 @@ Show barchart from the data of a json file.
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Scatter</title>
+        <title>Scatterplot</title>
         <script type="text/javascript" src="d3/d3.js"></script>
         <link rel="stylesheet" href="scatter.css">
     </head>
     <body>
+      <h2>
+        Linechart using D3 library
+      </h2>
+      <h4>
+        Frederik van Veen
+         10789324
+      </h4>
+
+      <h5>
+        The user can select between GDP, inbound tourism an purchasing power parities, and plot a linechart for these datasets.
+      </h5>
+
+
+
+      <!-- d3.select("body").append('h5').text("The bar chart shown on this page, shows the amount of renewable energy (measured in KTOE) that was produced in Belgium through the years 1990 to 2016. The chart was created in javascript using the D3 library."); -->
+
       <script src="http://d3js.org/d3.v5.min.js"></script>
 
       <script type="text/javascript">
@@ -24,7 +40,7 @@ Show barchart from the data of a json file.
       <script src="scatter.js"></script>
 
       <form>
-         x: 
+         x:
           <select id="selectData1">
               <option value="GDP.json"> GDP</option>
               <option value="ppp.json">Purchaing power parities</option>
