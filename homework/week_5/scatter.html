@@ -1,0 +1,43 @@
+<!--
+Frederik van Veen, 10789324
+Show barchart from the data of a json file.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Scatter</title>
+        <script type="text/javascript" src="d3/d3.js"></script>
+        <link rel="stylesheet" href="scatter.css">
+    </head>
+    <body>
+      <script src="http://d3js.org/d3.v5.min.js"></script>
+
+      <script type="text/javascript">
+      function getSelectedValue(){
+        var selectedValue = document.getElementById("selectData").value
+        console.log(selectedValue);
+      }
+      </script>
+
+      <script src="scatter.js"></script>
+
+      <form>
+         x: 
+          <select id="selectData1">
+              <option value="GDP.json"> GDP</option>
+              <option value="ppp.json">Purchaing power parities</option>
+              <option value="tourism.json">Tourism</option>
+          </select>
+          y:
+          <select id="selectData2">
+              <option value="GDP.json"> GDP</option>
+              <option value="ppp.json">Purchaing power parities</option>
+              <option value="tourism.json">Tourism</option>
+          </select>
+          <input type="button" value="Show graph" onclick= "userselected()">
+      </form>
+
+    </body>
+</html>

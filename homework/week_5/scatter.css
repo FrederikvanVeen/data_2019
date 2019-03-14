@@ -1,0 +1,91 @@
+/*
+rederik van veen, 10789324
+css file for bartchart.html
+*/
+
+          svg.circle {
+              display: inline-block;
+              width: 20px;
+              height: 75px;   /* We'll override this later */
+              fill: teal;
+              margin-right: 2px;
+          }
+
+
+
+          svg.axis line {
+              fill: none;
+              stroke: black;
+              shape-rendering: crispEdges;
+          }
+          .axis text {
+            fill:black;
+            text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+            cursor: move;
+          }
+          .text{
+
+          }
+
+
+          div.tooltip {
+            color: white;
+            position: absolute;
+            text-align: center;
+            width: 60px;
+            height: 30px;
+            padding: 2px;
+            font: 12px sans-serif;
+            background: rgba(0,0,0,.8);
+            border: 2px solid green;
+            color: #fff;
+            pointer-events: none;
+          }
+
+          .legend {
+            padding: 5px;
+            font: 10px sans-serif;
+            background: yellow;
+            box-shadow: 2px 2px 1px #888;
+          }
+
+          .title {
+            font: 13px sans-serif;
+          }
+
+
+
+          .dropbtn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+          }
+
+          .dropdown {
+            position: relative;
+            display: inline-block;
+          }
+
+          .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+          }
+
+          .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+          }
+
+          .dropdown-content a:hover {background-color: #ddd;}
+
+          .dropdown:hover .dropdown-content {display: block;}
+
+          .dropdown:hover .dropbtn {background-color: #3e8e41;}
