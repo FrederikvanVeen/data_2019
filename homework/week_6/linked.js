@@ -197,6 +197,7 @@ function drawbar(objects_interest_order) {
           .attr("y", 34 - (margin.top / 2) + (i * 20))
           .text(objects_interest_order[i].sex);
     }
+    d3.select("a").text("Source: Kaggle");
 
 };
 
