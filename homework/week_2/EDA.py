@@ -86,7 +86,6 @@ def construct_dataframe(INPUT_CSV, columns_interest):
 
     return df
 
-
 def central_tendency(df, column_to_analyze):
     # compute and print, mean, median, mode and standard deviation
     mean = df[column_to_analyze].mean()
@@ -149,6 +148,7 @@ def write_to_json(INPUT_CSV):
 
 if __name__ == "__main__":
     df = construct_dataframe(INPUT_CSV, columns_interest)
-    central_tendency(df, 'GDP')
-    five_number_summary(df, 'Infant mortality')
+    print(df)
+    # central_tendency(df, 'GDP')
+    # five_number_summary(df, 'Infant mortality')
     write_to_json('out.csv')

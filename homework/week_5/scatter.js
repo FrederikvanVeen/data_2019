@@ -1,5 +1,4 @@
 const gdpMax = 20000000;
-
 var colorArray = ['#FF6633', '#FFB399', '#FF33FF', '#FFFF99', '#00B3E6',
 		  '#E6B333', '#3366E6', '#999966', '#99FF99', '#B34D4D',
 		  '#80B300', '#809900', '#E6B3B3', '#6680B3', '#66991A',
@@ -105,7 +104,6 @@ function getRandomColor() {
 }
 
 function drawScatterplot(dataset, height, width){
-  console.log(dataset);
 
   dataset.forEach(function(item, index, array){
     item.Colour = colorArray[index];

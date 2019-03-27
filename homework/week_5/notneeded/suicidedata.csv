@@ -1,0 +1,1057 @@
+,country,year,sex,age,suicides_no
+0,Albania,2010,male,55-74 years,20
+1,Albania,2010,male,35-54 years,20
+2,Albania,2010,male,25-34 years,9
+3,Albania,2010,male,75+ years,2
+4,Albania,2010,male,15-24 years,10
+5,Albania,2010,female,25-34 years,6
+6,Albania,2010,female,75+ years,2
+7,Albania,2010,female,35-54 years,12
+8,Albania,2010,female,55-74 years,7
+9,Albania,2010,female,15-24 years,6
+10,Albania,2010,female,5-14 years,2
+11,Albania,2010,male,5-14 years,0
+12,Argentina,2010,male,75+ years,206
+13,Argentina,2010,male,15-24 years,683
+14,Argentina,2010,male,25-34 years,485
+15,Argentina,2010,male,55-74 years,397
+16,Argentina,2010,male,35-54 years,573
+17,Argentina,2010,female,15-24 years,150
+18,Argentina,2010,female,35-54 years,162
+19,Argentina,2010,female,25-34 years,101
+20,Argentina,2010,female,55-74 years,99
+21,Argentina,2010,female,75+ years,34
+22,Argentina,2010,male,5-14 years,33
+23,Argentina,2010,female,5-14 years,20
+24,Armenia,2010,male,75+ years,6
+25,Armenia,2010,male,55-74 years,13
+26,Armenia,2010,male,25-34 years,10
+27,Armenia,2010,male,35-54 years,15
+28,Armenia,2010,male,15-24 years,8
+29,Armenia,2010,female,55-74 years,7
+30,Armenia,2010,female,75+ years,2
+31,Armenia,2010,female,5-14 years,2
+32,Armenia,2010,female,35-54 years,5
+33,Armenia,2010,male,5-14 years,2
+34,Armenia,2010,female,15-24 years,2
+35,Armenia,2010,female,25-34 years,1
+36,Aruba,2010,male,35-54 years,4
+37,Aruba,2010,male,55-74 years,2
+38,Aruba,2010,female,55-74 years,1
+39,Aruba,2010,female,15-24 years,0
+40,Aruba,2010,female,25-34 years,0
+41,Aruba,2010,female,35-54 years,0
+42,Aruba,2010,female,5-14 years,0
+43,Aruba,2010,female,75+ years,0
+44,Aruba,2010,male,15-24 years,0
+45,Aruba,2010,male,25-34 years,0
+46,Aruba,2010,male,5-14 years,0
+47,Aruba,2010,male,75+ years,0
+48,Australia,2010,male,35-54 years,816
+49,Australia,2010,male,75+ years,151
+50,Australia,2010,male,25-34 years,311
+51,Australia,2010,male,55-74 years,360
+52,Australia,2010,male,15-24 years,222
+53,Australia,2010,female,35-54 years,228
+54,Australia,2010,female,25-34 years,94
+55,Australia,2010,female,75+ years,43
+56,Australia,2010,female,15-24 years,80
+57,Australia,2010,female,55-74 years,104
+58,Australia,2010,male,5-14 years,7
+59,Australia,2010,female,5-14 years,4
+60,Austria,2010,male,75+ years,180
+61,Austria,2010,male,55-74 years,287
+62,Austria,2010,male,35-54 years,325
+63,Austria,2010,male,15-24 years,91
+64,Austria,2010,male,25-34 years,85
+65,Austria,2010,female,75+ years,62
+66,Austria,2010,female,55-74 years,90
+67,Austria,2010,female,35-54 years,102
+68,Austria,2010,female,25-34 years,25
+69,Austria,2010,female,15-24 years,14
+70,Austria,2010,male,5-14 years,2
+71,Austria,2010,female,5-14 years,1
+72,Bahamas,2010,male,75+ years,1
+73,Bahamas,2010,female,15-24 years,2
+74,Bahamas,2010,male,35-54 years,3
+75,Bahamas,2010,male,55-74 years,1
+76,Bahamas,2010,female,55-74 years,1
+77,Bahamas,2010,male,15-24 years,1
+78,Bahamas,2010,female,35-54 years,1
+79,Bahamas,2010,female,25-34 years,0
+80,Bahamas,2010,female,5-14 years,0
+81,Bahamas,2010,female,75+ years,0
+82,Bahamas,2010,male,25-34 years,0
+83,Bahamas,2010,male,5-14 years,0
+84,Bahrain,2010,male,35-54 years,8
+85,Bahrain,2010,male,25-34 years,6
+86,Bahrain,2010,male,55-74 years,1
+87,Bahrain,2010,female,35-54 years,2
+88,Bahrain,2010,female,15-24 years,1
+89,Bahrain,2010,female,25-34 years,1
+90,Bahrain,2010,female,5-14 years,0
+91,Bahrain,2010,female,55-74 years,0
+92,Bahrain,2010,female,75+ years,0
+93,Bahrain,2010,male,15-24 years,0
+94,Bahrain,2010,male,5-14 years,0
+95,Bahrain,2010,male,75+ years,0
+96,Barbados,2010,male,35-54 years,3
+97,Barbados,2010,female,15-24 years,0
+98,Barbados,2010,female,25-34 years,0
+99,Barbados,2010,female,35-54 years,0
+100,Barbados,2010,female,5-14 years,0
+101,Barbados,2010,female,55-74 years,0
+102,Barbados,2010,female,75+ years,0
+103,Barbados,2010,male,15-24 years,0
+104,Barbados,2010,male,25-34 years,0
+105,Barbados,2010,male,5-14 years,0
+106,Barbados,2010,male,55-74 years,0
+107,Barbados,2010,male,75+ years,0
+108,Belarus,2010,male,75+ years,115
+109,Belarus,2010,male,35-54 years,869
+110,Belarus,2010,male,55-74 years,458
+111,Belarus,2010,male,25-34 years,382
+112,Belarus,2010,male,15-24 years,240
+113,Belarus,2010,female,75+ years,62
+114,Belarus,2010,female,35-54 years,145
+115,Belarus,2010,female,25-34 years,60
+116,Belarus,2010,female,55-74 years,83
+117,Belarus,2010,female,15-24 years,39
+118,Belarus,2010,male,5-14 years,5
+119,Belarus,2010,female,5-14 years,1
+120,Belgium,2010,male,75+ years,183
+121,Belgium,2010,male,35-54 years,622
+122,Belgium,2010,male,55-74 years,356
+123,Belgium,2010,male,25-34 years,184
+124,Belgium,2010,female,35-54 years,243
+125,Belgium,2010,female,55-74 years,173
+126,Belgium,2010,male,15-24 years,98
+127,Belgium,2010,female,75+ years,63
+128,Belgium,2010,female,25-34 years,50
+129,Belgium,2010,female,15-24 years,32
+130,Belgium,2010,male,5-14 years,7
+131,Belgium,2010,female,5-14 years,2
+132,Belize,2010,male,55-74 years,2
+133,Belize,2010,male,25-34 years,4
+134,Belize,2010,male,35-54 years,5
+135,Belize,2010,male,15-24 years,2
+136,Belize,2010,female,35-54 years,2
+137,Belize,2010,female,15-24 years,0
+138,Belize,2010,female,25-34 years,0
+139,Belize,2010,female,5-14 years,0
+140,Belize,2010,female,55-74 years,0
+141,Belize,2010,female,75+ years,0
+142,Belize,2010,male,5-14 years,0
+143,Belize,2010,male,75+ years,0
+144,Brazil,2010,male,75+ years,358
+145,Brazil,2010,male,55-74 years,1236
+146,Brazil,2010,male,25-34 years,1832
+147,Brazil,2010,male,35-54 years,2586
+148,Brazil,2010,male,15-24 years,1288
+149,Brazil,2010,female,35-54 years,835
+150,Brazil,2010,female,55-74 years,339
+151,Brazil,2010,female,75+ years,79
+152,Brazil,2010,female,25-34 years,404
+153,Brazil,2010,female,15-24 years,368
+154,Brazil,2010,male,5-14 years,56
+155,Brazil,2010,female,5-14 years,48
+156,Bulgaria,2010,male,75+ years,137
+157,Bulgaria,2010,male,55-74 years,217
+158,Bulgaria,2010,male,35-54 years,202
+159,Bulgaria,2010,female,75+ years,60
+160,Bulgaria,2010,male,25-34 years,57
+161,Bulgaria,2010,female,55-74 years,74
+162,Bulgaria,2010,male,15-24 years,35
+163,Bulgaria,2010,female,35-54 years,57
+164,Bulgaria,2010,female,25-34 years,11
+165,Bulgaria,2010,female,15-24 years,8
+166,Bulgaria,2010,male,5-14 years,1
+167,Bulgaria,2010,female,5-14 years,0
+168,Canada,2010,male,35-54 years,1292
+169,Canada,2010,male,75+ years,200
+170,Canada,2010,male,55-74 years,690
+171,Canada,2010,male,25-34 years,409
+172,Canada,2010,male,15-24 years,371
+173,Canada,2010,female,35-54 years,402
+174,Canada,2010,female,55-74 years,237
+175,Canada,2010,female,25-34 years,154
+176,Canada,2010,female,15-24 years,115
+177,Canada,2010,female,75+ years,49
+178,Canada,2010,male,5-14 years,19
+179,Canada,2010,female,5-14 years,13
+180,Chile,2010,male,75+ years,98
+181,Chile,2010,male,35-54 years,607
+182,Chile,2010,male,25-34 years,307
+183,Chile,2010,male,55-74 years,273
+184,Chile,2010,male,15-24 years,315
+185,Chile,2010,female,15-24 years,90
+186,Chile,2010,female,35-54 years,150
+187,Chile,2010,female,25-34 years,78
+188,Chile,2010,female,55-74 years,45
+189,Chile,2010,female,75+ years,10
+190,Chile,2010,male,5-14 years,18
+191,Chile,2010,female,5-14 years,10
+192,Colombia,2010,male,75+ years,65
+193,Colombia,2010,male,25-34 years,436
+194,Colombia,2010,male,15-24 years,480
+195,Colombia,2010,male,55-74 years,225
+196,Colombia,2010,male,35-54 years,463
+197,Colombia,2010,female,15-24 years,187
+198,Colombia,2010,female,25-34 years,78
+199,Colombia,2010,female,35-54 years,72
+200,Colombia,2010,male,5-14 years,41
+201,Colombia,2010,female,5-14 years,39
+202,Colombia,2010,female,75+ years,5
+203,Colombia,2010,female,55-74 years,16
+204,Costa Rica,2010,male,25-34 years,74
+205,Costa Rica,2010,male,35-54 years,106
+206,Costa Rica,2010,male,55-74 years,36
+207,Costa Rica,2010,male,75+ years,7
+208,Costa Rica,2010,male,15-24 years,40
+209,Costa Rica,2010,female,25-34 years,12
+210,Costa Rica,2010,female,35-54 years,16
+211,Costa Rica,2010,female,15-24 years,10
+212,Costa Rica,2010,female,55-74 years,5
+213,Costa Rica,2010,male,5-14 years,5
+214,Costa Rica,2010,female,5-14 years,0
+215,Costa Rica,2010,female,75+ years,0
+216,Croatia,2010,male,75+ years,99
+217,Croatia,2010,male,55-74 years,215
+218,Croatia,2010,male,35-54 years,186
+219,Croatia,2010,female,75+ years,46
+220,Croatia,2010,male,15-24 years,40
+221,Croatia,2010,male,25-34 years,44
+222,Croatia,2010,female,55-74 years,75
+223,Croatia,2010,female,35-54 years,50
+224,Croatia,2010,female,15-24 years,13
+225,Croatia,2010,female,25-34 years,7
+226,Croatia,2010,female,5-14 years,1
+227,Croatia,2010,male,5-14 years,0
+228,Cuba,2010,male,75+ years,206
+229,Cuba,2010,male,55-74 years,374
+230,Cuba,2010,male,35-54 years,476
+231,Cuba,2010,male,25-34 years,102
+232,Cuba,2010,female,55-74 years,142
+233,Cuba,2010,female,75+ years,40
+234,Cuba,2010,male,15-24 years,67
+235,Cuba,2010,female,35-54 years,105
+236,Cuba,2010,female,25-34 years,17
+237,Cuba,2010,female,15-24 years,18
+238,Cuba,2010,female,5-14 years,7
+239,Cuba,2010,male,5-14 years,4
+240,Cyprus,2010,male,75+ years,3
+241,Cyprus,2010,male,25-34 years,7
+242,Cyprus,2010,male,55-74 years,7
+243,Cyprus,2010,male,35-54 years,9
+244,Cyprus,2010,male,15-24 years,4
+245,Cyprus,2010,female,15-24 years,3
+246,Cyprus,2010,female,35-54 years,4
+247,Cyprus,2010,female,55-74 years,1
+248,Cyprus,2010,female,25-34 years,0
+249,Cyprus,2010,female,5-14 years,0
+250,Cyprus,2010,female,75+ years,0
+251,Cyprus,2010,male,5-14 years,0
+252,Czech Republic,2010,male,75+ years,115
+253,Czech Republic,2010,male,55-74 years,394
+254,Czech Republic,2010,male,35-54 years,473
+255,Czech Republic,2010,male,25-34 years,168
+256,Czech Republic,2010,male,15-24 years,94
+257,Czech Republic,2010,female,75+ years,40
+258,Czech Republic,2010,female,55-74 years,84
+259,Czech Republic,2010,female,35-54 years,87
+260,Czech Republic,2010,female,25-34 years,26
+261,Czech Republic,2010,female,15-24 years,20
+262,Czech Republic,2010,male,5-14 years,1
+263,Czech Republic,2010,female,5-14 years,0
+264,Denmark,2010,male,75+ years,61
+265,Denmark,2010,male,55-74 years,142
+266,Denmark,2010,male,35-54 years,142
+267,Denmark,2010,male,25-34 years,43
+268,Denmark,2010,female,75+ years,22
+269,Denmark,2010,female,55-74 years,56
+270,Denmark,2010,female,35-54 years,64
+271,Denmark,2010,male,15-24 years,17
+272,Denmark,2010,female,15-24 years,10
+273,Denmark,2010,female,25-34 years,6
+274,Denmark,2010,female,5-14 years,0
+275,Denmark,2010,male,5-14 years,0
+276,Ecuador,2010,male,15-24 years,214
+277,Ecuador,2010,male,25-34 years,171
+278,Ecuador,2010,male,35-54 years,165
+279,Ecuador,2010,male,55-74 years,68
+280,Ecuador,2010,male,75+ years,14
+281,Ecuador,2010,female,15-24 years,113
+282,Ecuador,2010,female,25-34 years,60
+283,Ecuador,2010,female,75+ years,6
+284,Ecuador,2010,female,55-74 years,18
+285,Ecuador,2010,female,35-54 years,39
+286,Ecuador,2010,male,5-14 years,26
+287,Ecuador,2010,female,5-14 years,18
+288,El Salvador,2010,male,25-34 years,93
+289,El Salvador,2010,male,55-74 years,45
+290,El Salvador,2010,male,75+ years,11
+291,El Salvador,2010,male,15-24 years,81
+292,El Salvador,2010,male,35-54 years,73
+293,El Salvador,2010,female,15-24 years,44
+294,El Salvador,2010,female,25-34 years,19
+295,El Salvador,2010,female,35-54 years,20
+296,El Salvador,2010,female,75+ years,2
+297,El Salvador,2010,female,5-14 years,7
+298,El Salvador,2010,female,55-74 years,3
+299,El Salvador,2010,male,5-14 years,1
+300,Estonia,2010,male,75+ years,18
+301,Estonia,2010,male,55-74 years,54
+302,Estonia,2010,male,35-54 years,61
+303,Estonia,2010,male,25-34 years,28
+304,Estonia,2010,male,15-24 years,20
+305,Estonia,2010,female,75+ years,12
+306,Estonia,2010,female,55-74 years,14
+307,Estonia,2010,female,25-34 years,5
+308,Estonia,2010,female,35-54 years,9
+309,Estonia,2010,female,15-24 years,2
+310,Estonia,2010,female,5-14 years,0
+311,Estonia,2010,male,5-14 years,0
+312,Finland,2010,male,25-34 years,119
+313,Finland,2010,male,75+ years,52
+314,Finland,2010,male,35-54 years,241
+315,Finland,2010,male,55-74 years,200
+316,Finland,2010,male,15-24 years,105
+317,Finland,2010,female,25-34 years,37
+318,Finland,2010,female,35-54 years,77
+319,Finland,2010,female,55-74 years,69
+320,Finland,2010,female,15-24 years,30
+321,Finland,2010,female,75+ years,23
+322,Finland,2010,male,5-14 years,1
+323,Finland,2010,female,5-14 years,0
+324,France,2010,male,75+ years,1354
+325,France,2010,male,35-54 years,3118
+326,France,2010,male,55-74 years,1956
+327,France,2010,male,25-34 years,805
+328,France,2010,female,75+ years,464
+329,France,2010,female,55-74 years,889
+330,France,2010,female,35-54 years,1074
+331,France,2010,male,15-24 years,385
+332,France,2010,female,25-34 years,177
+333,France,2010,female,15-24 years,117
+334,France,2010,male,5-14 years,23
+335,France,2010,female,5-14 years,17
+336,Georgia,2010,male,55-74 years,32
+337,Georgia,2010,male,75+ years,7
+338,Georgia,2010,male,35-54 years,29
+339,Georgia,2010,male,25-34 years,16
+340,Georgia,2010,male,15-24 years,11
+341,Georgia,2010,female,75+ years,5
+342,Georgia,2010,female,55-74 years,6
+343,Georgia,2010,female,35-54 years,5
+344,Georgia,2010,male,5-14 years,1
+345,Georgia,2010,female,15-24 years,0
+346,Georgia,2010,female,25-34 years,0
+347,Georgia,2010,female,5-14 years,0
+348,Germany,2010,male,75+ years,1277
+349,Germany,2010,male,55-74 years,2358
+350,Germany,2010,male,35-54 years,2605
+351,Germany,2010,male,25-34 years,735
+352,Germany,2010,female,75+ years,588
+353,Germany,2010,male,15-24 years,474
+354,Germany,2010,female,55-74 years,851
+355,Germany,2010,female,35-54 years,805
+356,Germany,2010,female,25-34 years,177
+357,Germany,2010,female,15-24 years,132
+358,Germany,2010,male,5-14 years,22
+359,Germany,2010,female,5-14 years,6
+360,Greece,2010,male,75+ years,55
+361,Greece,2010,male,35-54 years,128
+362,Greece,2010,male,55-74 years,85
+363,Greece,2010,male,25-34 years,53
+364,Greece,2010,male,15-24 years,15
+365,Greece,2010,female,75+ years,6
+366,Greece,2010,female,35-54 years,14
+367,Greece,2010,female,55-74 years,11
+368,Greece,2010,female,25-34 years,6
+369,Greece,2010,female,15-24 years,4
+370,Greece,2010,female,5-14 years,0
+371,Greece,2010,male,5-14 years,0
+372,Grenada,2010,female,15-24 years,0
+373,Grenada,2010,female,25-34 years,0
+374,Grenada,2010,female,35-54 years,0
+375,Grenada,2010,female,5-14 years,0
+376,Grenada,2010,female,55-74 years,0
+377,Grenada,2010,female,75+ years,0
+378,Grenada,2010,male,15-24 years,0
+379,Grenada,2010,male,25-34 years,0
+380,Grenada,2010,male,35-54 years,0
+381,Grenada,2010,male,5-14 years,0
+382,Grenada,2010,male,55-74 years,0
+383,Grenada,2010,male,75+ years,0
+384,Guatemala,2010,male,25-34 years,76
+385,Guatemala,2010,male,35-54 years,69
+386,Guatemala,2010,male,15-24 years,91
+387,Guatemala,2010,male,55-74 years,23
+388,Guatemala,2010,male,75+ years,5
+389,Guatemala,2010,female,15-24 years,43
+390,Guatemala,2010,female,25-34 years,21
+391,Guatemala,2010,female,35-54 years,8
+392,Guatemala,2010,female,55-74 years,3
+393,Guatemala,2010,female,5-14 years,7
+394,Guatemala,2010,male,5-14 years,6
+395,Guatemala,2010,female,75+ years,0
+396,Guyana,2010,male,75+ years,5
+397,Guyana,2010,male,35-54 years,80
+398,Guyana,2010,male,25-34 years,30
+399,Guyana,2010,male,15-24 years,27
+400,Guyana,2010,male,55-74 years,12
+401,Guyana,2010,female,15-24 years,21
+402,Guyana,2010,female,25-34 years,11
+403,Guyana,2010,female,55-74 years,4
+404,Guyana,2010,female,35-54 years,8
+405,Guyana,2010,female,5-14 years,5
+406,Guyana,2010,male,5-14 years,2
+407,Guyana,2010,female,75+ years,0
+408,Hungary,2010,male,75+ years,242
+409,Hungary,2010,male,55-74 years,671
+410,Hungary,2010,male,35-54 years,760
+411,Hungary,2010,male,25-34 years,190
+412,Hungary,2010,female,75+ years,109
+413,Hungary,2010,female,55-74 years,210
+414,Hungary,2010,female,35-54 years,170
+415,Hungary,2010,male,15-24 years,77
+416,Hungary,2010,female,25-34 years,37
+417,Hungary,2010,female,15-24 years,20
+418,Hungary,2010,male,5-14 years,2
+419,Hungary,2010,female,5-14 years,1
+420,Iceland,2010,male,75+ years,3
+421,Iceland,2010,male,25-34 years,8
+422,Iceland,2010,male,55-74 years,7
+423,Iceland,2010,male,35-54 years,11
+424,Iceland,2010,male,15-24 years,6
+425,Iceland,2010,female,35-54 years,5
+426,Iceland,2010,female,55-74 years,3
+427,Iceland,2010,male,5-14 years,1
+428,Iceland,2010,female,25-34 years,1
+429,Iceland,2010,female,15-24 years,1
+430,Iceland,2010,female,5-14 years,0
+431,Iceland,2010,female,75+ years,0
+432,Ireland,2010,male,35-54 years,166
+433,Ireland,2010,male,15-24 years,67
+434,Ireland,2010,male,25-34 years,75
+435,Ireland,2010,male,55-74 years,66
+436,Ireland,2010,male,75+ years,9
+437,Ireland,2010,female,55-74 years,25
+438,Ireland,2010,female,35-54 years,38
+439,Ireland,2010,female,25-34 years,19
+440,Ireland,2010,female,15-24 years,11
+441,Ireland,2010,female,75+ years,4
+442,Ireland,2010,female,5-14 years,3
+443,Ireland,2010,male,5-14 years,3
+444,Israel,2010,male,75+ years,40
+445,Israel,2010,male,55-74 years,93
+446,Israel,2010,male,35-54 years,119
+447,Israel,2010,male,25-34 years,77
+448,Israel,2010,male,15-24 years,63
+449,Israel,2010,female,75+ years,9
+450,Israel,2010,female,55-74 years,22
+451,Israel,2010,female,35-54 years,33
+452,Israel,2010,female,15-24 years,10
+453,Israel,2010,female,25-34 years,9
+454,Israel,2010,female,5-14 years,3
+455,Israel,2010,male,5-14 years,2
+456,Italy,2010,male,75+ years,591
+457,Italy,2010,male,55-74 years,944
+458,Italy,2010,male,35-54 years,1098
+459,Italy,2010,male,25-34 years,341
+460,Italy,2010,male,15-24 years,144
+461,Italy,2010,female,75+ years,161
+462,Italy,2010,female,55-74 years,294
+463,Italy,2010,female,35-54 years,292
+464,Italy,2010,female,25-34 years,82
+465,Italy,2010,female,15-24 years,31
+466,Italy,2010,male,5-14 years,10
+467,Italy,2010,female,5-14 years,1
+468,Jamaica,2010,male,25-34 years,1
+469,Jamaica,2010,male,5-14 years,1
+470,Jamaica,2010,male,35-54 years,1
+471,Jamaica,2010,female,15-24 years,0
+472,Jamaica,2010,female,25-34 years,0
+473,Jamaica,2010,female,35-54 years,0
+474,Jamaica,2010,female,5-14 years,0
+475,Jamaica,2010,female,55-74 years,0
+476,Jamaica,2010,female,75+ years,0
+477,Jamaica,2010,male,15-24 years,0
+478,Jamaica,2010,male,55-74 years,0
+479,Jamaica,2010,male,75+ years,0
+480,Japan,2010,male,55-74 years,7466
+481,Japan,2010,male,35-54 years,7351
+482,Japan,2010,male,75+ years,2188
+483,Japan,2010,male,25-34 years,2543
+484,Japan,2010,male,15-24 years,1315
+485,Japan,2010,female,75+ years,1686
+486,Japan,2010,female,55-74 years,2879
+487,Japan,2010,female,35-54 years,2404
+488,Japan,2010,female,25-34 years,1008
+489,Japan,2010,female,15-24 years,508
+490,Japan,2010,male,5-14 years,42
+491,Japan,2010,female,5-14 years,21
+492,Kazakhstan,2010,male,75+ years,72
+493,Kazakhstan,2010,male,25-34 years,808
+494,Kazakhstan,2010,male,35-54 years,1118
+495,Kazakhstan,2010,male,55-74 years,389
+496,Kazakhstan,2010,male,15-24 years,528
+497,Kazakhstan,2010,female,75+ years,39
+498,Kazakhstan,2010,female,15-24 years,193
+499,Kazakhstan,2010,female,25-34 years,140
+500,Kazakhstan,2010,female,55-74 years,88
+501,Kazakhstan,2010,female,35-54 years,160
+502,Kazakhstan,2010,male,5-14 years,49
+503,Kazakhstan,2010,female,5-14 years,25
+504,Kuwait,2010,male,55-74 years,3
+505,Kuwait,2010,female,25-34 years,8
+506,Kuwait,2010,male,25-34 years,13
+507,Kuwait,2010,male,35-54 years,9
+508,Kuwait,2010,female,15-24 years,2
+509,Kuwait,2010,female,35-54 years,3
+510,Kuwait,2010,male,15-24 years,1
+511,Kuwait,2010,female,5-14 years,0
+512,Kuwait,2010,female,55-74 years,0
+513,Kuwait,2010,female,75+ years,0
+514,Kuwait,2010,male,5-14 years,0
+515,Kuwait,2010,male,75+ years,0
+516,Kyrgyzstan,2010,male,25-34 years,122
+517,Kyrgyzstan,2010,male,75+ years,10
+518,Kyrgyzstan,2010,male,35-54 years,131
+519,Kyrgyzstan,2010,male,55-74 years,38
+520,Kyrgyzstan,2010,male,15-24 years,86
+521,Kyrgyzstan,2010,female,75+ years,6
+522,Kyrgyzstan,2010,female,15-24 years,40
+523,Kyrgyzstan,2010,female,55-74 years,11
+524,Kyrgyzstan,2010,female,35-54 years,27
+525,Kyrgyzstan,2010,female,25-34 years,17
+526,Kyrgyzstan,2010,male,5-14 years,8
+527,Kyrgyzstan,2010,female,5-14 years,4
+528,Latvia,2010,male,75+ years,25
+529,Latvia,2010,male,55-74 years,105
+530,Latvia,2010,male,35-54 years,153
+531,Latvia,2010,male,25-34 years,59
+532,Latvia,2010,male,15-24 years,34
+533,Latvia,2010,female,55-74 years,29
+534,Latvia,2010,female,75+ years,10
+535,Latvia,2010,female,35-54 years,17
+536,Latvia,2010,female,15-24 years,4
+537,Latvia,2010,female,25-34 years,2
+538,Latvia,2010,female,5-14 years,0
+539,Latvia,2010,male,5-14 years,0
+540,Lithuania,2010,male,55-74 years,219
+541,Lithuania,2010,male,35-54 years,357
+542,Lithuania,2010,male,75+ years,49
+543,Lithuania,2010,male,25-34 years,110
+544,Lithuania,2010,male,15-24 years,93
+545,Lithuania,2010,female,75+ years,41
+546,Lithuania,2010,female,35-54 years,72
+547,Lithuania,2010,female,55-74 years,50
+548,Lithuania,2010,female,15-24 years,14
+549,Lithuania,2010,female,25-34 years,11
+550,Lithuania,2010,female,5-14 years,1
+551,Lithuania,2010,male,5-14 years,1
+552,Luxembourg,2010,male,75+ years,7
+553,Luxembourg,2010,male,35-54 years,24
+554,Luxembourg,2010,male,55-74 years,5
+555,Luxembourg,2010,male,15-24 years,3
+556,Luxembourg,2010,male,25-34 years,3
+557,Luxembourg,2010,female,35-54 years,5
+558,Luxembourg,2010,female,55-74 years,3
+559,Luxembourg,2010,female,25-34 years,2
+560,Luxembourg,2010,female,75+ years,1
+561,Luxembourg,2010,male,5-14 years,1
+562,Luxembourg,2010,female,15-24 years,0
+563,Luxembourg,2010,female,5-14 years,0
+564,Maldives,2010,male,15-24 years,1
+565,Maldives,2010,female,15-24 years,0
+566,Maldives,2010,female,25-34 years,0
+567,Maldives,2010,female,35-54 years,0
+568,Maldives,2010,female,5-14 years,0
+569,Maldives,2010,female,55-74 years,0
+570,Maldives,2010,female,75+ years,0
+571,Maldives,2010,male,25-34 years,0
+572,Maldives,2010,male,35-54 years,0
+573,Maldives,2010,male,5-14 years,0
+574,Maldives,2010,male,55-74 years,0
+575,Maldives,2010,male,75+ years,0
+576,Malta,2010,male,35-54 years,17
+577,Malta,2010,male,75+ years,2
+578,Malta,2010,male,15-24 years,3
+579,Malta,2010,male,25-34 years,3
+580,Malta,2010,male,55-74 years,4
+581,Malta,2010,female,55-74 years,2
+582,Malta,2010,female,15-24 years,0
+583,Malta,2010,female,25-34 years,0
+584,Malta,2010,female,35-54 years,0
+585,Malta,2010,female,5-14 years,0
+586,Malta,2010,female,75+ years,0
+587,Malta,2010,male,5-14 years,0
+588,Mauritius,2010,male,75+ years,4
+589,Mauritius,2010,male,25-34 years,18
+590,Mauritius,2010,male,35-54 years,28
+591,Mauritius,2010,male,15-24 years,15
+592,Mauritius,2010,male,55-74 years,11
+593,Mauritius,2010,female,25-34 years,9
+594,Mauritius,2010,female,35-54 years,8
+595,Mauritius,2010,female,55-74 years,3
+596,Mauritius,2010,female,15-24 years,2
+597,Mauritius,2010,female,5-14 years,0
+598,Mauritius,2010,female,75+ years,0
+599,Mauritius,2010,male,5-14 years,0
+600,Mexico,2010,male,75+ years,165
+601,Mexico,2010,male,25-34 years,936
+602,Mexico,2010,male,15-24 years,1074
+603,Mexico,2010,male,35-54 years,1191
+604,Mexico,2010,male,55-74 years,483
+605,Mexico,2010,female,15-24 years,350
+606,Mexico,2010,female,25-34 years,177
+607,Mexico,2010,female,35-54 years,231
+608,Mexico,2010,female,55-74 years,62
+609,Mexico,2010,male,5-14 years,109
+610,Mexico,2010,female,5-14 years,73
+611,Mexico,2010,female,75+ years,7
+612,Netherlands,2010,male,35-54 years,496
+613,Netherlands,2010,male,55-74 years,332
+614,Netherlands,2010,male,75+ years,82
+615,Netherlands,2010,male,25-34 years,115
+616,Netherlands,2010,male,15-24 years,97
+617,Netherlands,2010,female,35-54 years,208
+618,Netherlands,2010,female,55-74 years,143
+619,Netherlands,2010,female,75+ years,46
+620,Netherlands,2010,female,25-34 years,53
+621,Netherlands,2010,female,15-24 years,26
+622,Netherlands,2010,male,5-14 years,5
+623,Netherlands,2010,female,5-14 years,1
+624,New Zealand,2010,male,35-54 years,155
+625,New Zealand,2010,male,25-34 years,65
+626,New Zealand,2010,male,15-24 years,77
+627,New Zealand,2010,male,75+ years,20
+628,New Zealand,2010,male,55-74 years,67
+629,New Zealand,2010,female,15-24 years,35
+630,New Zealand,2010,female,25-34 years,30
+631,New Zealand,2010,female,35-54 years,51
+632,New Zealand,2010,female,75+ years,9
+633,New Zealand,2010,female,55-74 years,21
+634,New Zealand,2010,female,5-14 years,3
+635,New Zealand,2010,male,5-14 years,3
+636,Nicaragua,2010,male,75+ years,8
+637,Nicaragua,2010,male,25-34 years,82
+638,Nicaragua,2010,male,35-54 years,73
+639,Nicaragua,2010,male,15-24 years,83
+640,Nicaragua,2010,male,55-74 years,23
+641,Nicaragua,2010,female,15-24 years,33
+642,Nicaragua,2010,female,25-34 years,15
+643,Nicaragua,2010,female,35-54 years,18
+644,Nicaragua,2010,female,55-74 years,4
+645,Nicaragua,2010,female,5-14 years,7
+646,Nicaragua,2010,male,5-14 years,5
+647,Nicaragua,2010,female,75+ years,0
+648,Norway,2010,male,75+ years,31
+649,Norway,2010,male,55-74 years,99
+650,Norway,2010,male,25-34 years,62
+651,Norway,2010,male,35-54 years,132
+652,Norway,2010,male,15-24 years,59
+653,Norway,2010,female,35-54 years,68
+654,Norway,2010,female,55-74 years,49
+655,Norway,2010,female,25-34 years,24
+656,Norway,2010,female,75+ years,10
+657,Norway,2010,female,15-24 years,13
+658,Norway,2010,male,5-14 years,1
+659,Norway,2010,female,5-14 years,0
+660,Oman,2010,male,35-54 years,6
+661,Oman,2010,male,15-24 years,4
+662,Oman,2010,male,55-74 years,1
+663,Oman,2010,male,25-34 years,2
+664,Oman,2010,female,15-24 years,0
+665,Oman,2010,female,25-34 years,0
+666,Oman,2010,female,35-54 years,0
+667,Oman,2010,female,5-14 years,0
+668,Oman,2010,female,55-74 years,0
+669,Oman,2010,female,75+ years,0
+670,Oman,2010,male,5-14 years,0
+671,Oman,2010,male,75+ years,0
+672,Panama,2010,male,75+ years,7
+673,Panama,2010,male,25-34 years,41
+674,Panama,2010,male,35-54 years,43
+675,Panama,2010,male,55-74 years,17
+676,Panama,2010,male,15-24 years,22
+677,Panama,2010,female,75+ years,2
+678,Panama,2010,female,15-24 years,11
+679,Panama,2010,female,35-54 years,8
+680,Panama,2010,female,25-34 years,0
+681,Panama,2010,female,5-14 years,0
+682,Panama,2010,female,55-74 years,0
+683,Panama,2010,male,5-14 years,0
+684,Paraguay,2010,male,75+ years,6
+685,Paraguay,2010,male,15-24 years,54
+686,Paraguay,2010,male,25-34 years,36
+687,Paraguay,2010,male,55-74 years,20
+688,Paraguay,2010,male,35-54 years,42
+689,Paraguay,2010,female,15-24 years,30
+690,Paraguay,2010,female,75+ years,2
+691,Paraguay,2010,female,35-54 years,13
+692,Paraguay,2010,female,55-74 years,6
+693,Paraguay,2010,female,25-34 years,9
+694,Paraguay,2010,female,5-14 years,3
+695,Paraguay,2010,male,5-14 years,2
+696,Philippines,2010,male,75+ years,42
+697,Philippines,2010,male,25-34 years,400
+698,Philippines,2010,male,15-24 years,503
+699,Philippines,2010,male,55-74 years,180
+700,Philippines,2010,male,35-54 years,469
+701,Philippines,2010,female,15-24 years,218
+702,Philippines,2010,female,25-34 years,101
+703,Philippines,2010,female,75+ years,10
+704,Philippines,2010,female,35-54 years,107
+705,Philippines,2010,female,55-74 years,34
+706,Philippines,2010,male,5-14 years,35
+707,Philippines,2010,female,5-14 years,17
+708,Poland,2010,male,55-74 years,1621
+709,Poland,2010,male,35-54 years,2277
+710,Poland,2010,male,75+ years,256
+711,Poland,2010,male,25-34 years,806
+712,Poland,2010,male,15-24 years,547
+713,Poland,2010,female,55-74 years,313
+714,Poland,2010,female,35-54 years,301
+715,Poland,2010,female,75+ years,94
+716,Poland,2010,female,25-34 years,77
+717,Poland,2010,female,15-24 years,49
+718,Poland,2010,male,5-14 years,10
+719,Poland,2010,female,5-14 years,6
+720,Portugal,2010,male,75+ years,233
+721,Portugal,2010,male,55-74 years,257
+722,Portugal,2010,male,35-54 years,258
+723,Portugal,2010,female,75+ years,64
+724,Portugal,2010,male,25-34 years,58
+725,Portugal,2010,female,55-74 years,89
+726,Portugal,2010,male,15-24 years,27
+727,Portugal,2010,female,35-54 years,72
+728,Portugal,2010,female,25-34 years,27
+729,Portugal,2010,female,15-24 years,12
+730,Portugal,2010,female,5-14 years,1
+731,Portugal,2010,male,5-14 years,1
+732,Puerto Rico,2010,male,75+ years,24
+733,Puerto Rico,2010,male,35-54 years,100
+734,Puerto Rico,2010,male,55-74 years,60
+735,Puerto Rico,2010,male,25-34 years,39
+736,Puerto Rico,2010,male,15-24 years,18
+737,Puerto Rico,2010,female,55-74 years,15
+738,Puerto Rico,2010,female,35-54 years,20
+739,Puerto Rico,2010,female,75+ years,2
+740,Puerto Rico,2010,female,25-34 years,4
+741,Puerto Rico,2010,female,15-24 years,4
+742,Puerto Rico,2010,female,5-14 years,0
+743,Puerto Rico,2010,male,5-14 years,0
+744,Qatar,2010,male,25-34 years,20
+745,Qatar,2010,male,15-24 years,8
+746,Qatar,2010,male,35-54 years,18
+747,Qatar,2010,female,25-34 years,1
+748,Qatar,2010,female,15-24 years,0
+749,Qatar,2010,female,35-54 years,0
+750,Qatar,2010,female,5-14 years,0
+751,Qatar,2010,female,55-74 years,0
+752,Qatar,2010,female,75+ years,0
+753,Qatar,2010,male,5-14 years,0
+754,Qatar,2010,male,55-74 years,0
+755,Qatar,2010,male,75+ years,0
+756,Republic of Korea,2010,male,75+ years,1152
+757,Republic of Korea,2010,male,55-74 years,3298
+758,Republic of Korea,2010,female,75+ years,914
+759,Republic of Korea,2010,male,35-54 years,4050
+760,Republic of Korea,2010,male,25-34 years,1301
+761,Republic of Korea,2010,female,55-74 years,1200
+762,Republic of Korea,2010,female,25-34 years,972
+763,Republic of Korea,2010,female,35-54 years,1745
+764,Republic of Korea,2010,male,15-24 years,493
+765,Republic of Korea,2010,female,15-24 years,372
+766,Republic of Korea,2010,female,5-14 years,34
+767,Republic of Korea,2010,male,5-14 years,27
+768,Romania,2010,male,55-74 years,704
+769,Romania,2010,male,35-54 years,995
+770,Romania,2010,male,75+ years,154
+771,Romania,2010,male,25-34 years,263
+772,Romania,2010,male,15-24 years,177
+773,Romania,2010,female,55-74 years,177
+774,Romania,2010,female,75+ years,59
+775,Romania,2010,female,35-54 years,147
+776,Romania,2010,female,15-24 years,38
+777,Romania,2010,female,25-34 years,36
+778,Romania,2010,male,5-14 years,11
+779,Romania,2010,female,5-14 years,5
+780,Russian Federation,2010,male,75+ years,1506
+781,Russian Federation,2010,male,25-34 years,6508
+782,Russian Federation,2010,male,35-54 years,10304
+783,Russian Federation,2010,male,55-74 years,5178
+784,Russian Federation,2010,male,15-24 years,3934
+785,Russian Federation,2010,female,75+ years,1041
+786,Russian Federation,2010,female,55-74 years,1354
+787,Russian Federation,2010,female,25-34 years,893
+788,Russian Federation,2010,female,35-54 years,1680
+789,Russian Federation,2010,female,15-24 years,763
+790,Russian Federation,2010,male,5-14 years,131
+791,Russian Federation,2010,female,5-14 years,64
+792,Saint Lucia,2010,male,55-74 years,2
+793,Saint Lucia,2010,female,15-24 years,1
+794,Saint Lucia,2010,male,35-54 years,1
+795,Saint Lucia,2010,female,25-34 years,0
+796,Saint Lucia,2010,female,35-54 years,0
+797,Saint Lucia,2010,female,5-14 years,0
+798,Saint Lucia,2010,female,55-74 years,0
+799,Saint Lucia,2010,female,75+ years,0
+800,Saint Lucia,2010,male,15-24 years,0
+801,Saint Lucia,2010,male,25-34 years,0
+802,Saint Lucia,2010,male,5-14 years,0
+803,Saint Lucia,2010,male,75+ years,0
+804,Saint Vincent and Grenadines,2010,male,25-34 years,4
+805,Saint Vincent and Grenadines,2010,male,5-14 years,1
+806,Saint Vincent and Grenadines,2010,female,15-24 years,0
+807,Saint Vincent and Grenadines,2010,female,25-34 years,0
+808,Saint Vincent and Grenadines,2010,female,35-54 years,0
+809,Saint Vincent and Grenadines,2010,female,5-14 years,0
+810,Saint Vincent and Grenadines,2010,female,55-74 years,0
+811,Saint Vincent and Grenadines,2010,female,75+ years,0
+812,Saint Vincent and Grenadines,2010,male,15-24 years,0
+813,Saint Vincent and Grenadines,2010,male,35-54 years,0
+814,Saint Vincent and Grenadines,2010,male,55-74 years,0
+815,Saint Vincent and Grenadines,2010,male,75+ years,0
+816,Serbia,2010,male,75+ years,204
+817,Serbia,2010,male,55-74 years,341
+818,Serbia,2010,female,75+ years,88
+819,Serbia,2010,male,35-54 years,252
+820,Serbia,2010,male,25-34 years,77
+821,Serbia,2010,female,55-74 years,128
+822,Serbia,2010,male,15-24 years,29
+823,Serbia,2010,female,35-54 years,64
+824,Serbia,2010,female,25-34 years,18
+825,Serbia,2010,female,15-24 years,6
+826,Serbia,2010,female,5-14 years,0
+827,Serbia,2010,male,5-14 years,0
+828,Seychelles,2010,male,35-54 years,4
+829,Seychelles,2010,male,25-34 years,2
+830,Seychelles,2010,female,15-24 years,0
+831,Seychelles,2010,female,25-34 years,0
+832,Seychelles,2010,female,35-54 years,0
+833,Seychelles,2010,female,5-14 years,0
+834,Seychelles,2010,female,55-74 years,0
+835,Seychelles,2010,female,75+ years,0
+836,Seychelles,2010,male,15-24 years,0
+837,Seychelles,2010,male,5-14 years,0
+838,Seychelles,2010,male,55-74 years,0
+839,Seychelles,2010,male,75+ years,0
+840,Singapore,2010,male,75+ years,27
+841,Singapore,2010,male,55-74 years,48
+842,Singapore,2010,male,35-54 years,94
+843,Singapore,2010,female,75+ years,12
+844,Singapore,2010,female,55-74 years,28
+845,Singapore,2010,male,25-34 years,20
+846,Singapore,2010,female,35-54 years,34
+847,Singapore,2010,female,15-24 years,13
+848,Singapore,2010,female,25-34 years,12
+849,Singapore,2010,male,15-24 years,7
+850,Singapore,2010,male,5-14 years,1
+851,Singapore,2010,female,5-14 years,0
+852,Slovakia,2010,male,75+ years,33
+853,Slovakia,2010,male,35-54 years,239
+854,Slovakia,2010,male,55-74 years,145
+855,Slovakia,2010,male,25-34 years,76
+856,Slovakia,2010,male,15-24 years,42
+857,Slovakia,2010,female,75+ years,11
+858,Slovakia,2010,female,35-54 years,39
+859,Slovakia,2010,female,55-74 years,26
+860,Slovakia,2010,female,15-24 years,7
+861,Slovakia,2010,female,25-34 years,8
+862,Slovakia,2010,male,5-14 years,4
+863,Slovakia,2010,female,5-14 years,1
+864,Slovenia,2010,male,75+ years,49
+865,Slovenia,2010,male,55-74 years,107
+866,Slovenia,2010,male,35-54 years,121
+867,Slovenia,2010,male,15-24 years,25
+868,Slovenia,2010,male,25-34 years,32
+869,Slovenia,2010,female,55-74 years,35
+870,Slovenia,2010,female,75+ years,12
+871,Slovenia,2010,female,35-54 years,25
+872,Slovenia,2010,female,25-34 years,5
+873,Slovenia,2010,male,5-14 years,2
+874,Slovenia,2010,female,15-24 years,1
+875,Slovenia,2010,female,5-14 years,0
+876,South Africa,2010,male,75+ years,9
+877,South Africa,2010,male,25-34 years,106
+878,South Africa,2010,male,55-74 years,35
+879,South Africa,2010,male,35-54 years,85
+880,South Africa,2010,male,15-24 years,56
+881,South Africa,2010,female,75+ years,4
+882,South Africa,2010,female,15-24 years,32
+883,South Africa,2010,female,35-54 years,28
+884,South Africa,2010,female,25-34 years,20
+885,South Africa,2010,female,55-74 years,8
+886,South Africa,2010,male,5-14 years,8
+887,South Africa,2010,female,5-14 years,2
+888,Spain,2010,male,75+ years,488
+889,Spain,2010,male,55-74 years,635
+890,Spain,2010,male,35-54 years,971
+891,Spain,2010,male,25-34 years,272
+892,Spain,2010,female,75+ years,120
+893,Spain,2010,female,55-74 years,207
+894,Spain,2010,male,15-24 years,99
+895,Spain,2010,female,35-54 years,281
+896,Spain,2010,female,25-34 years,59
+897,Spain,2010,female,15-24 years,23
+898,Spain,2010,male,5-14 years,3
+899,Spain,2010,female,5-14 years,0
+900,Suriname,2010,male,75+ years,5
+901,Suriname,2010,female,75+ years,4
+902,Suriname,2010,male,35-54 years,40
+903,Suriname,2010,male,25-34 years,19
+904,Suriname,2010,male,55-74 years,10
+905,Suriname,2010,male,15-24 years,18
+906,Suriname,2010,female,15-24 years,10
+907,Suriname,2010,female,35-54 years,14
+908,Suriname,2010,female,25-34 years,7
+909,Suriname,2010,female,55-74 years,3
+910,Suriname,2010,female,5-14 years,4
+911,Suriname,2010,male,5-14 years,2
+912,Sweden,2010,male,75+ years,101
+913,Sweden,2010,male,55-74 years,263
+914,Sweden,2010,male,35-54 years,280
+915,Sweden,2010,male,25-34 years,106
+916,Sweden,2010,male,15-24 years,87
+917,Sweden,2010,female,55-74 years,105
+918,Sweden,2010,female,35-54 years,100
+919,Sweden,2010,female,75+ years,34
+920,Sweden,2010,female,25-34 years,31
+921,Sweden,2010,female,15-24 years,31
+922,Sweden,2010,female,5-14 years,2
+923,Sweden,2010,male,5-14 years,1
+924,Switzerland,2010,male,75+ years,114
+925,Switzerland,2010,male,55-74 years,220
+926,Switzerland,2010,male,35-54 years,267
+927,Switzerland,2010,male,25-34 years,74
+928,Switzerland,2010,female,55-74 years,96
+929,Switzerland,2010,male,15-24 years,47
+930,Switzerland,2010,female,75+ years,36
+931,Switzerland,2010,female,35-54 years,103
+932,Switzerland,2010,female,25-34 years,32
+933,Switzerland,2010,female,15-24 years,15
+934,Switzerland,2010,male,5-14 years,2
+935,Switzerland,2010,female,5-14 years,0
+936,Thailand,2010,male,75+ years,145
+937,Thailand,2010,male,25-34 years,688
+938,Thailand,2010,male,55-74 years,511
+939,Thailand,2010,male,35-54 years,1166
+940,Thailand,2010,male,15-24 years,387
+941,Thailand,2010,female,75+ years,41
+942,Thailand,2010,female,55-74 years,164
+943,Thailand,2010,female,35-54 years,345
+944,Thailand,2010,female,25-34 years,164
+945,Thailand,2010,female,15-24 years,120
+946,Thailand,2010,male,5-14 years,16
+947,Thailand,2010,female,5-14 years,14
+948,Trinidad and Tobago,2010,male,25-34 years,38
+949,Trinidad and Tobago,2010,male,75+ years,4
+950,Trinidad and Tobago,2010,male,35-54 years,48
+951,Trinidad and Tobago,2010,male,55-74 years,21
+952,Trinidad and Tobago,2010,male,15-24 years,17
+953,Trinidad and Tobago,2010,female,15-24 years,9
+954,Trinidad and Tobago,2010,female,25-34 years,9
+955,Trinidad and Tobago,2010,female,35-54 years,8
+956,Trinidad and Tobago,2010,female,55-74 years,4
+957,Trinidad and Tobago,2010,female,5-14 years,1
+958,Trinidad and Tobago,2010,male,5-14 years,1
+959,Trinidad and Tobago,2010,female,75+ years,0
+960,Turkey,2010,male,75+ years,63
+961,Turkey,2010,male,35-54 years,397
+962,Turkey,2010,male,55-74 years,175
+963,Turkey,2010,male,25-34 years,248
+964,Turkey,2010,male,15-24 years,238
+965,Turkey,2010,female,75+ years,28
+966,Turkey,2010,female,15-24 years,95
+967,Turkey,2010,female,55-74 years,57
+968,Turkey,2010,female,35-54 years,110
+969,Turkey,2010,female,25-34 years,61
+970,Turkey,2010,male,5-14 years,27
+971,Turkey,2010,female,5-14 years,25
+972,Turkmenistan,2010,male,25-34 years,40
+973,Turkmenistan,2010,male,15-24 years,42
+974,Turkmenistan,2010,male,75+ years,2
+975,Turkmenistan,2010,male,35-54 years,35
+976,Turkmenistan,2010,male,55-74 years,10
+977,Turkmenistan,2010,female,15-24 years,22
+978,Turkmenistan,2010,female,25-34 years,9
+979,Turkmenistan,2010,female,35-54 years,9
+980,Turkmenistan,2010,female,5-14 years,5
+981,Turkmenistan,2010,female,55-74 years,2
+982,Turkmenistan,2010,male,5-14 years,2
+983,Turkmenistan,2010,female,75+ years,0
+984,Ukraine,2010,male,75+ years,495
+985,Ukraine,2010,male,55-74 years,1827
+986,Ukraine,2010,male,35-54 years,2853
+987,Ukraine,2010,male,25-34 years,1457
+988,Ukraine,2010,male,15-24 years,843
+989,Ukraine,2010,female,75+ years,303
+990,Ukraine,2010,female,55-74 years,479
+991,Ukraine,2010,female,35-54 years,458
+992,Ukraine,2010,female,15-24 years,154
+993,Ukraine,2010,female,25-34 years,170
+994,Ukraine,2010,male,5-14 years,35
+995,Ukraine,2010,female,5-14 years,15
+996,United Arab Emirates,2010,male,75+ years,1
+997,United Arab Emirates,2010,male,55-74 years,5
+998,United Arab Emirates,2010,female,25-34 years,14
+999,United Arab Emirates,2010,female,55-74 years,1
+1000,United Arab Emirates,2010,male,25-34 years,39
+1001,United Arab Emirates,2010,female,15-24 years,6
+1002,United Arab Emirates,2010,male,35-54 years,34
+1003,United Arab Emirates,2010,male,15-24 years,10
+1004,United Arab Emirates,2010,female,35-54 years,1
+1005,United Arab Emirates,2010,female,5-14 years,0
+1006,United Arab Emirates,2010,female,75+ years,0
+1007,United Arab Emirates,2010,male,5-14 years,0
+1008,United Kingdom,2010,male,35-54 years,1444
+1009,United Kingdom,2010,male,25-34 years,513
+1010,United Kingdom,2010,male,75+ years,227
+1011,United Kingdom,2010,male,55-74 years,696
+1012,United Kingdom,2010,male,15-24 years,344
+1013,United Kingdom,2010,female,35-54 years,400
+1014,United Kingdom,2010,female,55-74 years,232
+1015,United Kingdom,2010,female,25-34 years,133
+1016,United Kingdom,2010,female,75+ years,89
+1017,United Kingdom,2010,female,15-24 years,106
+1018,United Kingdom,2010,female,5-14 years,3
+1019,United Kingdom,2010,male,5-14 years,1
+1020,United States,2010,male,75+ years,2617
+1021,United States,2010,male,35-54 years,11767
+1022,United States,2010,male,55-74 years,7287
+1023,United States,2010,male,25-34 years,4645
+1024,United States,2010,male,15-24 years,3772
+1025,United States,2010,female,35-54 years,3604
+1026,United States,2010,female,55-74 years,2071
+1027,United States,2010,female,25-34 years,1092
+1028,United States,2010,female,15-24 years,830
+1029,United States,2010,female,75+ years,403
+1030,United States,2010,male,5-14 years,187
+1031,United States,2010,female,5-14 years,87
+1032,Uruguay,2010,male,75+ years,67
+1033,Uruguay,2010,male,55-74 years,106
+1034,Uruguay,2010,male,25-34 years,77
+1035,Uruguay,2010,male,15-24 years,69
+1036,Uruguay,2010,male,35-54 years,101
+1037,Uruguay,2010,female,55-74 years,42
+1038,Uruguay,2010,female,75+ years,14
+1039,Uruguay,2010,female,35-54 years,38
+1040,Uruguay,2010,female,25-34 years,18
+1041,Uruguay,2010,female,15-24 years,11
+1042,Uruguay,2010,female,5-14 years,3
+1043,Uruguay,2010,male,5-14 years,1
+1044,Uzbekistan,2010,male,35-54 years,371
+1045,Uzbekistan,2010,male,25-34 years,235
+1046,Uzbekistan,2010,male,55-74 years,102
+1047,Uzbekistan,2010,male,15-24 years,246
+1048,Uzbekistan,2010,female,15-24 years,208
+1049,Uzbekistan,2010,male,75+ years,9
+1050,Uzbekistan,2010,female,25-34 years,93
+1051,Uzbekistan,2010,female,35-54 years,101
+1052,Uzbekistan,2010,male,5-14 years,48
+1053,Uzbekistan,2010,female,75+ years,5
+1054,Uzbekistan,2010,female,55-74 years,16
+1055,Uzbekistan,2010,female,5-14 years,30
