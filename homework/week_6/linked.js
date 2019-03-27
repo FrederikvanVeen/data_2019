@@ -75,7 +75,7 @@ function drawDatamap(){
 // create promise for the json file
 function drawbar(objects_interest_order) {
 
-  var margin = {top: 30, right: 80, bottom: 90, left: 120};
+  var margin = {top: 80, right: 80, bottom: 90, left: 120};
   var w = 350;
   var h = 200;
   var barPadding = 0.5;
